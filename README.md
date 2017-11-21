@@ -3,7 +3,7 @@
 ## Links
 
 *   Deployed Application
-*   Deployed API Link
+*   [Deployed API](https://evening-mountain-89646.herokuapp.com)
 *   Client Repo Link
 *   ERD
 *   Wireframes
