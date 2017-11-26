@@ -1,16 +1,19 @@
+# Patch Of Earth API
+
 ## About The Application
 
 ## Links
 
-*   Deployed Application
+*   [Deployed Client](https://jago425.github.io/patch-of-earth-client/)
 *   [Deployed API](https://evening-mountain-89646.herokuapp.com)
-*   Client Repo Link
+*   [Client Repo Link](https://github.com/jago425/patch-of-earth-client)
 *   ERD
-*   Wireframes
+
 
 ## Technologies Used
 
 
+## Installation Instructions
 
 ## API Endpoints
 
@@ -30,3 +33,7 @@
 |------|-------------|-------------------|
 | GET  | `/users`    | `users#index`     |
 | GET  | `/users/1`  | `users#show`      |
+
+## Future Enhancements
+
+## Development Strategy
