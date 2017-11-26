@@ -7,7 +7,7 @@
 *   [Deployed Client](https://jago425.github.io/patch-of-earth-client/)
 *   [Deployed API](https://evening-mountain-89646.herokuapp.com)
 *   [Client Repo Link](https://github.com/jago425/patch-of-earth-client)
-*   ERD
+*   [ERD](https://creately.com/diagram/jaaamftb1/ivWe16ssYslpn0SFB54b06gOE%3D)
 
 
 ## Technologies Used
