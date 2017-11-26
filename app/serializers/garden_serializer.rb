@@ -1,3 +1,3 @@
 class GardenSerializer < ActiveModel::Serializer
-  attributes :id, :type, :nickname, :year
+  attributes :id, :garden_type, :nickname, :year
 end
