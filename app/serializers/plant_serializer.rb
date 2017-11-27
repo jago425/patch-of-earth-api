@@ -1,3 +1,3 @@
 class PlantSerializer < ActiveModel::Serializer
-  attributes :id, :plant_type, :common_name, :scientific_name, :variety, :brand, :garden_id, :quantity
+  attributes :id, :plant_type, :common_name, :scientific_name, :variety, :brand, :quantity, :garden_plants
 end

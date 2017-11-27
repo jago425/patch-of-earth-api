@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :garden_plants
   resources :plants, except: [:new, :edit]
   resources :gardens, except: [:new, :edit]
   resources :examples, except: %i[new edit]
