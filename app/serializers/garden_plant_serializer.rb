@@ -1,5 +1,5 @@
 class GardenPlantSerializer < ActiveModel::Serializer
-  attributes :id, :quantity
+  attributes :id
   has_one :garden
   has_one :plant
 end
