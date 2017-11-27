@@ -55,7 +55,6 @@ curl --include --request PATCH "http://localhost:4741/plants/${ID}" \
     "scientific_name": "'"${SCI}"'",
     "variety": "'"${VAR}"'",
     "brand": "'"${BRAND}"'",
-    "garden_id": "'"${GRDNID}"'",
     "quantity": "'"${QTY}"'"
 
   }
@@ -111,7 +110,6 @@ curl --include --request PATCH "http://localhost:4741/plants/${ID}" \
 #     "scientific_name": "'"${SCI}"'",
 #     "variety": "'"${VAR}"'",
 #     "brand": "'"${BRAND}"'",
-      # "garden_id": "'"${GRDNID}"'",
       # "quantity": "'"${QTY}"'"
 #   }
 # }'
