@@ -1,12 +1,12 @@
 # TEST
-curl --include --request PATCH "http://localhost:4741/plants/${ID}" \
---header "Authorization: Token token=${TOKEN}" \
---header "Content_Type: application/json" \
---data '{
-  "plant": {
-    "plant_type": "'"${TYPE}"'"
-  }
-}'
+# curl --include --request PATCH "http://localhost:4741/plants/${ID}" \
+# --header "Authorization: Token token=${TOKEN}" \
+# --header "Content_Type: application/json" \
+# --data '{
+#   "plant": {
+#     "plant_type": "'"${TYPE}"'"
+#   }
+# }'
 
 # curl --include --request PATCH "http://localhost:4741/plants/${ID}" \
 # --header "Authorization: Token token=${TOKEN}" \
@@ -93,15 +93,15 @@ curl --include --request PATCH "http://localhost:4741/plants/${ID}" \
 #   }
 # }'
 #
-# curl --include --request PATCH "https://evening-mountain-89646.herokuapp.com/plants/${ID}" \
-# --header "Authorization: Token token=${TOKEN}" \
-# --header "Content_Type: application/json" \
-# --data '{
-#   "plant": {
-#     "brand": "'"${BRAND}"'"
-#   }
-# }'
-#
+curl --include --request PATCH "https://evening-mountain-89646.herokuapp.com/plants/${ID}" \
+--header "Authorization: Token token=${TOKEN}" \
+--header "Content_Type: application/json" \
+--data '{
+  "plant": {
+    "brand": "'"${BRAND}"'"
+  }
+}'
+
 
 # curl --include --request PATCH "https://evening-mountain-89646.herokuapp.com/plants/${ID}" \
 # --header "Authorization: Token token=${TOKEN}" \
