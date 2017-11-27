@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   resources :garden_plants, except: [:new, :edit]
-  resources :plants, except: [:new, :edit, :destroy]
+  resources :plants, except: [:new, :edit]
   resources :gardens, except: [:new, :edit, :destroy]
   resources :examples, except: %i[new edit]
   post '/sign-up' => 'users#signup'
