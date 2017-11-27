@@ -1,5 +1,6 @@
 # TEST
 curl --include --request POST "http://localhost:4741/plants" \
+--header "Authorization: Token token=${TOKEN}" \
 --header "Content_Type: application/json" \
 --data '{
   "plant": {
@@ -13,6 +14,7 @@ curl --include --request POST "http://localhost:4741/plants" \
 
 # PRODUCTION
 # curl --include --request POST "https://evening-mountain-89646.herokuapp.com/plants" \
+# --header "Authorization: Token token=${TOKEN}" \
 # --header "Content_Type: application/json" \
 # --data '{
 #   "plant": {
@@ -23,3 +25,5 @@ curl --include --request POST "http://localhost:4741/plants" \
 #     "brand": "'"${BRAND}"'"
 #   }
 # }'
+#
+echo
