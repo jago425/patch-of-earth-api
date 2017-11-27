@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171127021346) do
+ActiveRecord::Schema.define(version: 20171127190329) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20171127021346) do
     t.bigint "plant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "quantity"
     t.index ["garden_id"], name: "index_garden_plants_on_garden_id"
     t.index ["plant_id"], name: "index_garden_plants_on_plant_id"
   end
@@ -48,7 +49,6 @@ ActiveRecord::Schema.define(version: 20171127021346) do
     t.string "brand"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "quantity"
   end
 
   create_table "users", force: :cascade do |t|

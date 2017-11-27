@@ -6,3 +6,5 @@ curl --include --request POST "http://localhost:4741/garden_plants" \
     "plant_id": "'"${PLANTID}"'"
   }
 }'
+
+echo
