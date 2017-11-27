@@ -8,7 +8,8 @@ curl --include --request POST "http://localhost:4741/plants" \
     "scientific_name": "'"${SCI}"'",
     "variety": "'"${VAR}"'",
     "brand": "'"${BRAND}"'",
-    "garden_id": "'"${GARDEN_ID}"'"
+    "garden_id": "'"${GRDNID}"'",
+    "quantity": "'"${QTY}"'"
   }
 }'
 
@@ -21,6 +22,8 @@ curl --include --request POST "http://localhost:4741/plants" \
 #     "common_name": "'"${COMMON}"'",
 #     "scientific_name": "'"${SCI}"'",
 #     "variety": "'"${VAR}"'",
-#     "brand": "'"${BRAND}"'"
+#     "brand": "'"${BRAND}"'",
+      # "garden_id": "'"${GRDNID}"'",
+      # "quantity": "'"${quantity}"'"
 #   }
 # }'

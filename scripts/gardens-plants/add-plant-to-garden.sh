@@ -9,13 +9,11 @@ curl --include --request PATCH "http://localhost:4741/plants/${ID}" \
 
 # PRODUCTION
 
-# curl --include --request PATCH "https://evening-mountain-89646.herokuapp.com/gardens/${ID}" \
+# curl --include --request PATCH "https://evening-mountain-89646.herokuapp.com/plants/${ID}" \
 # --header "Content_Type: application/json" \
 # --data '{
-#   "garden": {
-#     "garden_type": "'"${TYPE}"'",
-#     "nickname": "'"${NAME}"'",
-#     "year": "'"${YEAR}"'"
+#   "plant": {
+#       "garden_id": "'"${GRDNID}"'"
 #   }
 # }'
 echo
