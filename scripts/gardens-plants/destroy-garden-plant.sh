@@ -4,6 +4,6 @@
 
 # PRODUCTION
 
-curl --include --request PATCH "https://evening-mountain-89646.herokuapp.com/garden_plants/${ID}" \
+curl --include --request DELETE "https://evening-mountain-89646.herokuapp.com/garden_plants/${ID}" \
 --header "Content_Type: application/json" \
 echo
